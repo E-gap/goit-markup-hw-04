@@ -679,16 +679,15 @@ h1, h2, h3, h4, h5, h6, p, ul {
 }
 
 .work-examples-h {
-    width: 322px;
-    
+    width: 322px;    
     font-weight: var(--bold-font);
     font-size: 18px;
     line-height: 2.0;         
     letter-spacing: 0.06em;    
     color: var(--primary-color);
-    margin-bottom: 4px;
-        
+    margin-bottom: 4px;        
 }
+
 .work-examples-p {
     
     
@@ -696,9 +695,13 @@ h1, h2, h3, h4, h5, h6, p, ul {
         font-size: var(--normal-font-size);
         line-height: 1.88;           
         letter-spacing: 0.03em;    
-        color: var(--secondary-color);
-        
+        color: var(--secondary-color);        
 }
+
+.work-examples-border a {
+    text-decoration: none;
+}
+
 .filters-button:hover,
 .filters-button:focus {
     
