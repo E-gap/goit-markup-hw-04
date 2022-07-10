@@ -303,7 +303,7 @@ h1, h2, h3, h4, h5, h6, p, ul {
 
 .team-item {
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
-    border-radius: 0px 0px 4px 4px;
+    
 }
 .team-title {    
         
@@ -394,6 +394,7 @@ h1, h2, h3, h4, h5, h6, p, ul {
         .social-nets:hover,
         .social-nets:focus {
             background-color: #2196F3;
+            
         }
     
         .social-nets:hover .instagram, 
@@ -467,18 +468,22 @@ h1, h2, h3, h4, h5, h6, p, ul {
     background: #2F303A;
     padding-top: 60px;
     padding-bottom: 60px;
-    display:flex;
     
 }
 
-.container.footer {
-    display: flex;
-}
 
-.address-footer {
-    margin-right: 70px;
-}
 
+.join {
+    color:#FFFFFF;
+    font-size: var(--min-font-size);
+    font-weight: var(--bold-font);
+    line-height: 1.14;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+    font-style: normal;
+    
+    
+}
 
 .logo-footer {
     font-family: 'Raleway';
@@ -490,13 +495,15 @@ h1, h2, h3, h4, h5, h6, p, ul {
         text-decoration: none;        
         display: block;
         margin-bottom: 20px;
+        margin-right: 156px;
         
         }
 
         .list.address{
             padding-left: 0;
         }
-.address {    
+.address {
+    
     font-style: normal;
 }
 .address-street {
@@ -528,45 +535,6 @@ h1, h2, h3, h4, h5, h6, p, ul {
        
 }
 
-.join {
-    color:#FFFFFF;
-    font-size: var(--min-font-size);
-    font-weight: var(--bold-font);
-    line-height: 1.14;
-    text-transform: uppercase;
-    letter-spacing: 0.03em;  
-    margin-bottom: 20px;    
-}
-
-.social-links-footer {
-    list-style:none;
-    display: flex;
-    padding-left: 0;
-    padding-right: 0;
-    
-    }
-
-    .join-nets svg {
-    fill:#FFFFFF;
-    }
-
-    .social-nets.join-nets:hover,
-    .social-nets.join-nets:focus {
-        background-color: #2196F3;
-    }
-
-    .join-nets {
-        margin-right: 10px;
-    }
-
-    .join-nets-linkedin {
-        margin-right: 0;
-    }
-
-
-.social-links-footer .social-nets {
-    background-color: rgba(255, 255, 255, 0.1);;
-}
 
 .address-contacts-email:hover,
 .address-contacts-email:focus,
@@ -629,11 +597,8 @@ h1, h2, h3, h4, h5, h6, p, ul {
     line-height: 1.62;
     text-align: center;
     letter-spacing: 0.03em;    
-    color: var(--primary-color);         
- }
-
- .filters-li:hover {
-    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+    color: var(--primary-color);    
+     
  }
 
  .filters-button {
@@ -665,11 +630,6 @@ h1, h2, h3, h4, h5, h6, p, ul {
     border-left: 1px solid #EEEEEE;
     flex-basis: calc((100%-60px)/3);
     max-width: 370px;
-}
-
-.work-examples-border:hover,
-.work-examples-border:focus {
-    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
 .work-examples-name {
@@ -711,8 +671,20 @@ h1, h2, h3, h4, h5, h6, p, ul {
 .menu-list .menu-link.current {
     color: #2196F3
 }
+.logodiv{
+    display: flex;
+    align-items: baseline;
+}
 
-
+.divaddress {
+    display: flex;
+}
+.test {
+    display: inline-block;
+}
+.address-street {
+    margin-right: 70px;
+}
 
 
 
