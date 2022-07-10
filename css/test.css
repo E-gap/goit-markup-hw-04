@@ -39,7 +39,8 @@ h1, h2, h3, h4, h5, h6, p, ul {
     border-bottom: 1px solid #ECECEC;
     display: flex;
     padding-top: 24px;
-    padding-bottom: 25px;    
+    padding-bottom: 25px;  
+    align-items: center;  
 }
 
 .container {
@@ -133,6 +134,7 @@ h1, h2, h3, h4, h5, h6, p, ul {
     color:#2196F3;
     }
     
+
 .envelope-email:hover,
 .envelope-email:focus {
     fill:#2196F3;    
@@ -140,6 +142,8 @@ h1, h2, h3, h4, h5, h6, p, ul {
 
     .envelope-email {
         margin-right: 30px;
+        display: flex;
+        align-items: center;
     }
 
     .smartfone-phone:hover .menu-item-phone,
@@ -150,6 +154,11 @@ h1, h2, h3, h4, h5, h6, p, ul {
     .smartfone-phone:hover,
     .smartfone-phone:focus {
         fill:#2196F3;    
+        }
+
+        .smartfone-phone {
+            display: flex;
+            align-items: center;
         }
 
 .menu-item-email {
@@ -404,7 +413,7 @@ h1, h2, h3, h4, h5, h6, p, ul {
         .social-nets:focus .facebook,
         .social-nets:hover .linkedin, 
         .social-nets:focus .linkedin {
-            fill:#EEEEEE;
+            fill:#FFFFFF;
             
         }
 
@@ -555,11 +564,9 @@ h1, h2, h3, h4, h5, h6, p, ul {
         background-color: #2196F3;
     }
 
-    
     .join-nets:not(:last-child) {
         margin-right: 10px;
     }
-
 
 
 .social-links-footer .social-nets {
@@ -591,7 +598,7 @@ h1, h2, h3, h4, h5, h6, p, ul {
 .address-contacts-email:hover,
 .address-contacts-email:focus {
     color: #2196F3;
-}
+    }
 
 
 
@@ -619,7 +626,6 @@ h1, h2, h3, h4, h5, h6, p, ul {
 
 .filters-li:not(:last-child) {
     margin-right: 8px;
-    color: #FFFFFF;
 }
 .filters-li {
        
@@ -687,8 +693,7 @@ h1, h2, h3, h4, h5, h6, p, ul {
     margin-bottom: 4px;        
 }
 
-.work-examples-p {
-    
+.work-examples-p {    
     
         font-weight: var(--normal-font);
         font-size: var(--normal-font-size);
@@ -705,13 +710,13 @@ h1, h2, h3, h4, h5, h6, p, ul {
 .filters-button:focus {
     
     color: var(--thirty-color);
-    background-color: #2196F3
+    background-color: #2196F3;
 }
 .filters-button, .button-order {
     cursor: pointer;
 }
 .menu-list .menu-link.current {
-    color: #2196F3
+    color: #2196F3;
 }
 
 
