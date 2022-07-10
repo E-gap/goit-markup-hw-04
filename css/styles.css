@@ -404,7 +404,7 @@ h1, h2, h3, h4, h5, h6, p, ul {
         .social-nets:focus .facebook,
         .social-nets:hover .linkedin, 
         .social-nets:focus .linkedin {
-            fill:#EEEEEE;
+            fill:#FFFFFF;
             
         }
 
@@ -593,7 +593,7 @@ h1, h2, h3, h4, h5, h6, p, ul {
 .address-contacts-email:hover,
 .address-contacts-email:focus {
     color: #2196F3;
-}
+    }
 
 
 
@@ -688,8 +688,7 @@ h1, h2, h3, h4, h5, h6, p, ul {
     margin-bottom: 4px;        
 }
 
-.work-examples-p {
-    
+.work-examples-p {    
     
         font-weight: var(--normal-font);
         font-size: var(--normal-font-size);
@@ -706,13 +705,13 @@ h1, h2, h3, h4, h5, h6, p, ul {
 .filters-button:focus {
     
     color: var(--thirty-color);
-    background-color: #2196F3
+    background-color: #2196F3;
 }
 .filters-button, .button-order {
     cursor: pointer;
 }
 .menu-list .menu-link.current {
-    color: #2196F3
+    color: #2196F3;
 }
 
 
