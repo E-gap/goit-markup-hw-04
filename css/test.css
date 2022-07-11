@@ -83,6 +83,7 @@ h1, h2, h3, h4, h5, h6, p, ul {
 .list-contacts {
     padding-left: 0;
     display: flex;
+    align-items: center;
 }
 
 .menu-list, .menu {
@@ -94,6 +95,7 @@ h1, h2, h3, h4, h5, h6, p, ul {
 .menu-link {
     color: var(--primary-color);
     text-decoration: none;
+    font-family: var(--primary-font);
 }
 .list {
     text-decoration: none;
@@ -134,7 +136,6 @@ h1, h2, h3, h4, h5, h6, p, ul {
     color:#2196F3;
     }
     
-
 .envelope-email:hover,
 .envelope-email:focus {
     fill:#2196F3;    
@@ -142,6 +143,11 @@ h1, h2, h3, h4, h5, h6, p, ul {
 
     .envelope-email {
         margin-right: 30px;
+        display: flex;
+        align-items: center;
+    }
+
+    .smartphone-phone {
         display: flex;
         align-items: center;
     }
@@ -154,11 +160,6 @@ h1, h2, h3, h4, h5, h6, p, ul {
     .smartfone-phone:hover,
     .smartfone-phone:focus {
         fill:#2196F3;    
-        }
-
-        .smartfone-phone {
-            display: flex;
-            align-items: center;
         }
 
 .menu-item-email {
@@ -482,6 +483,7 @@ h1, h2, h3, h4, h5, h6, p, ul {
 
 .container.footer {
     display: flex;
+    align-items:baseline;
 }
 
 .address-footer {
@@ -564,8 +566,12 @@ h1, h2, h3, h4, h5, h6, p, ul {
         background-color: #2196F3;
     }
 
-    .join-nets:not(:last-child) {
+    .join-nets {
         margin-right: 10px;
+    }
+
+    .join-nets-linkedin {
+        margin-right: 0;
     }
 
 
@@ -591,6 +597,11 @@ h1, h2, h3, h4, h5, h6, p, ul {
 .menu-item-phone:focus
  {
     color: #2196F3;
+}
+
+.menu-item-email:hover .envelope-icon,
+.menu-item-email:focus .envelope-icon {
+    fill:#2196F3;
 }
 
 .menu-item-email:hover,

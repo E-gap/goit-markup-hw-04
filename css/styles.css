@@ -95,6 +95,7 @@ h1, h2, h3, h4, h5, h6, p, ul {
 .menu-link {
     color: var(--primary-color);
     text-decoration: none;
+    font-family: var(--primary-font);
 }
 .list {
     text-decoration: none;
@@ -122,12 +123,28 @@ h1, h2, h3, h4, h5, h6, p, ul {
         text-decoration: none;
 }
 
+.menu-link:hover,
+.menu-link:focus {
+    color:#2196F3;
+}
+
+
 .envelope-icon {      
     margin-right: 10px;
+    fill:#2196F3;
 }
 
 .smartphone-icon {      
     margin-right: 10px;
+}
+
+.menu-item-email {
+    margin-right: 30px;
+}
+
+.flex-center {
+    display: flex;
+    align-items: center;
 }
 
 .envelope-email:hover .menu-item-email,
@@ -167,7 +184,7 @@ h1, h2, h3, h4, h5, h6, p, ul {
         font-size: var(--min-font-size);
         line-height: 1.14;
         letter-spacing: 0.02em;    
-        color: var(--primary-color);
+        color:#2196F3;
         text-decoration: none;
         }
 
@@ -313,6 +330,7 @@ h1, h2, h3, h4, h5, h6, p, ul {
 .team-item {
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
+    background-color: #FFFFFF;
 }
 .team-title {    
         
@@ -383,7 +401,7 @@ h1, h2, h3, h4, h5, h6, p, ul {
 
         .social-nets {
             border-radius: 50%;
-            background-color: #F5F4FA;            
+            background-color: #FFFFFF;            
         }
 
 .instagram,
@@ -400,10 +418,12 @@ h1, h2, h3, h4, h5, h6, p, ul {
     fill: #afb1b8;    
 }
 
-        .social-nets:hover,
-        .social-nets:focus {
-            background-color: #2196F3;
-        }
+.social-nets:hover,
+.social-nets:focus {
+background-color: #2196F3;
+} 
+
+
     
         .social-nets:hover .instagram, 
         .social-nets:focus .instagram,
@@ -480,7 +500,7 @@ h1, h2, h3, h4, h5, h6, p, ul {
     
 }
 
-.container.footer {
+.address-join {
     display: flex;
     align-items:baseline;
 }
@@ -488,7 +508,6 @@ h1, h2, h3, h4, h5, h6, p, ul {
 .address-footer {
     margin-right: 70px;
 }
-
 
 .logo-footer {
     font-family: 'Raleway';
@@ -605,8 +624,14 @@ h1, h2, h3, h4, h5, h6, p, ul {
     color: #2196F3;
     }
 
+    .menu-item-email:hover .envelope-icon,
+    .menu-item-email:focus .envelope-icon,
+    .menu-item-phone:hover .smartphone-icon,
+    .menu-item-phone:focus .smartphone-icon {
+        fill:#2196F3;
+    }
 
-
+    
 .work-examples {
     padding-top: 94px;
     padding-bottom: 94px;
